@@ -1,31 +1,3 @@
-button {
-    border: none;
-    border-radius: 10px;
-    background-color: #fd7014;
-    color: #222831;
-    padding: 12px;
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
-}
-  
-button:hover {
-    background-color: #222831;
-    color: #fd7014;
-}
-  
-button:focus {
-  outline: none;
-}
-  
-nav {
-    background-color: #222831 !important;
-}
-.container-fluid{
-    padding: 10px 10%;
-}
-.container-fluid h3{
-    color: #fd7014;
-}
 .loader {
   margin: 0 auto;
 }

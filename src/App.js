@@ -1,7 +1,6 @@
-import Users from './components/card';
+import Users from './components/user-card';
 import './App.css';
 import React, { Component } from 'react';
-// import logo from './img/lgm-logo.png';
 
 class App extends Component {
   constructor(props) {
@@ -34,7 +33,6 @@ class App extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            {/* <img src = {logo} alt = "LGM-Logo" height="80" width="200" className="logo" /> */}
             <h3>VALO</h3>
             <button onClick={this.displayUsers} users={this.state.user_data}>
               Get Users

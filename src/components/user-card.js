@@ -1,5 +1,5 @@
 import React from 'react'
-import './card.css'
+import './user-card.css'
 
 const Users = ({loading,users}) => {
     return loading ? (
