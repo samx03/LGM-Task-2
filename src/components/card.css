@@ -1,0 +1,72 @@
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #fd7014;
+    color: #222831;
+    padding: 12px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+  
+button:hover {
+    background-color: #222831;
+    color: #fd7014;
+}
+  
+button:focus {
+  outline: none;
+}
+  
+nav {
+    background-color: #222831 !important;
+}
+.container-fluid{
+    padding: 10px 10%;
+}
+.container-fluid h3{
+    color: #fd7014;
+}
+.loader {
+  margin: 0 auto;
+}
+  
+.avatar {
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+  
+#main {
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+  
+#main img {
+  animation-delay: 5s;
+}
+  
+.profile {
+  width: 300px;
+  border-radius: 10px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: #fd7014;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.profile:hover {
+    transform: scale(1.01);
+    box-shadow: 3px 3px 10px #b2b2b2;
+}
+  
+.name {
+  color: #222831;
+  font-size: 25px;
+  font-weight: 700;
+}
+  
+.email {
+  font-size: 18px;
+}
